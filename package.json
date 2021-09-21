@@ -1,0 +1,71 @@
+{
+  "name": "carefree-carousel",
+  "version": "1.0.0",
+  "description": "A click-based carousel that you can run carefree.",
+  "main": "./dist/bundle.cjs.js",
+  "module": "./dist/bundle.es6.js",
+  "browser": "./dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eno-d/carefree-carousel.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "html",
+    "javascript",
+    "js",
+    "carefree",
+    "carousel",
+    "eno-d",
+    "customizable"
+  ],
+  "author": "Eno Dhamo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eno-d/carefree-carousel/issues"
+  },
+  "homepage": "https://github.com/eno-d/carefree-carousel#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": ">=7.15.5",
+    "@babel/preset-env": ">=7.15.6",
+    "@babel/preset-react": ">=7.14.5",
+    "@rollup/plugin-babel": ">=5.3.0",
+    "@rollup/plugin-commonjs": ">=20.0.0",
+    "@rollup/plugin-image": ">=2.1.1",
+    "@rollup/plugin-node-resolve": ">=13.0.4",
+    "@rollup/plugin-strip": ">=2.1.0",
+    "babel-loader": ">=8.2.2",
+    "rollup": ">=2.56.3",
+    "rollup-plugin-postcss": ">=4.0.1",
+    "rollup-plugin-terser": ">=7.0.2"
+  },
+  "dependencies": {
+    "react-use-images": ">=1.1.5",
+    "prop-types": ">=15.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  }
+}

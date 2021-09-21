@@ -1,0 +1,103 @@
+/* Styling to align the wrapper of the icon pagination */
+.alignment{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: .04em;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: .4em;
+    font-family: sans-serif;
+    transition-duration: 1s;
+    transition: ease-in;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Css styling for *inside* the dots pagination */
+.inside{
+    border-radius: 9999%;
+    background-color: rgba(136, 128, 128, 0.466);
+    min-width: .7em;
+    min-height: .7em;
+    border: .1em solid black;
+    cursor: pointer;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: ease-in;
+    transition-duration: 1.2s;
+}
+
+/* Styling for the dots hover-on */
+.inside:hover{
+    background-color: gray;
+    transition-duration: .5s;
+}
+
+/* Styling for the active pagination element */
+.active{
+    background-color: white;
+    cursor: auto;
+}
+
+/* Add additional hover-on effects */
+.active:hover{
+    background-color: white;
+}
+
+/* Responsiveness */
+
+/* < sm */
+@media only screen and (max-width: 320px) {
+}
+
+/* sm-md */
+@media only screen and (min-width: 321px) and (max-width: 648px) {
+
+    .inside{
+        min-width: .65em;
+        min-height: .65em;
+    }
+
+    .alignment{
+        font-size: 1.3em;
+    }
+}
+
+/* md-lg */
+@media only screen and (min-width: 649px) and (max-width: 1024px) {
+    .inside{
+        min-width: .69em;
+        min-height: .69em;
+    }
+
+    .alignment{
+        font-size: 1.5em;
+    }
+
+}
+
+/* lg-xl */
+@media only screen and (min-width: 1025px) and (max-width: 1380px) {
+    .inside{
+        min-width: .71em;
+        min-height: .71em;
+    }
+
+    .alignment{
+        font-size: 1.7em;
+    }
+
+}
+
+/* xl+ */
+@media only screen and (min-width: 1381px) and (max-width: 3000px) {
+    .inside{
+        min-width: .74em;
+        min-height: .74em;
+    }
+
+    .alignment{
+        font-size: 1.9em;
+    }
+}

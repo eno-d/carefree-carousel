@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Css styling for custom error box */
+.error{
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px black dashed;
+  margin-bottom: .1rem;
+}
+
+/* Css styling for the wrapper for all the content to be displayed */
+.wrapperAll{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  margin: 0rem auto;
+  overflow: hidden;
+}
+
+/* Css styling for the wrapper of the container for the slides */
+.slideWrapper{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: ease-in;
+}
+
+/* Css styling for the container of the slides */
+.slideshowSlider{
+  display: flex;
+  flex-direction: row;
+  transition: ease 1000ms;
+  object-fit: contain;
+  width:auto;
+}
+
+/* Css styling for the actual slide content */
+.slide{
+  display: inline-block;
+}

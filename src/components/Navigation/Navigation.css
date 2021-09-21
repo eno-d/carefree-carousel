@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Navigation wrapper */
+.navigation{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    align-items: center;
+    user-select: none;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition-duration: 3s;
+    overflow:hidden;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* Navigation image wrapper */
+.centerArrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: ease-in-out;
+    overflow: hidden;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Navigation image wrapper hover effects */
+.centerArrow:hover{
+    cursor: pointer;
+}
+
+/* Navigation image wrapper *left image* hover effects */
+.centerArrow:hover > .imageLeft{
+    cursor: pointer;
+    transform: scale(115%);
+    transform: translateX(-5%);
+    transition: ease-in-out;
+    transition-duration: 2.5s;
+    filter: opacity(100%);
+}
+
+/* Navigation image wrapper *right image* hover effects */
+.centerArrow:hover > .imageRight{
+    cursor: pointer;
+    transform: scale(115%);
+    transform: translateX(5%);
+    transition: ease-in-out;
+    transition-duration: 2.5s;
+    filter: opacity(100%);
+}
+
+/* Left-image for pagination */
+.imageLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    filter: opacity(50%);
+    width: 60%;
+}
+
+/* Right-image from pagination */
+.imageRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    filter: opacity(50%);
+    width: 60%;
+}
+
+/* Responsiveness of navigation --below--*/
+
+@media only screen and (max-width: 320px) {
+    
+    .centerArrow{
+        width: 1.9em;
+        height: 1.9em;        
+    }
+
+    .navigation{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 321px){
+    .centerArrow{
+        width: 2em;
+        height: 2em;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 649px){
+    .centerArrow{
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .centerArrow{
+        width: 3em;
+        height: 3em;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1260px){
+    .centerArrow{
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 2200px){
+    .centerArrow{
+        width: 4em;
+        height: 4em;
+    }
+
+    .navigation{
+        width: 95%;
+    }
+}
