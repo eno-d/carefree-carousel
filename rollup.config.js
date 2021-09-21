@@ -9,7 +9,7 @@ import strip from '@rollup/plugin-strip';
 export default [
     {
         input: './src/index.js',
-        external: ['react', 'react-dom', 'prop-types'],
+        external: ['react', 'react-dom', 'prop-types', 'react-use-images'],
         plugins: [
             postcss({
                 plugins: [],
