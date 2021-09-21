@@ -5,6 +5,8 @@ A click-based carousel (run it care-free).
 ---
 ![](./assets/carousel.svg)
 
+![Maintenance](https://img.shields.io/maintenance/yes/2021?label=Active%3F&style=for-the-badge)
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/eno-d/carefree-carousel/Publish%20to%20npm?style=for-the-badge)
 
 ![npm](https://img.shields.io/npm/v/carefree-carousel?label=Latest&style=for-the-badge)
@@ -53,6 +55,20 @@ A click-based carousel (run it care-free).
 <br/>
 
 https://user-images.githubusercontent.com/88824507/134108105-acd1dc0d-30f6-4e6f-a83a-71b97109b001.mov
+
+#### This is how the parameters were loaded for the video above
+```
+<Carousel toggleDots={false} slideText={false} toggleNav={false} startIndex={0} />
+
+```
+#### The content array expects either a valid React element or a valid image string.
+```
+content={[<div>An element</div>, "a-image-link-here", "other-image-link", <p>a new element</p>]}
+```
+#### The navImg array expects two valid image strings in the following order 
+```
+navImg={["image-for-left-arrow-here", "image-for-right-arrow-here"]}
+```
 
 <br/>
 
