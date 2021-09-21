@@ -51,7 +51,7 @@ A click-based carousel (run it care-free).
 
 <br/>
 
-<video src="./assets/demo.mov" width=100%></video>
+https://user-images.githubusercontent.com/88824507/134108105-acd1dc0d-30f6-4e6f-a83a-71b97109b001.mov
 
 <br/>
 
@@ -85,7 +85,7 @@ A click-based carousel (run it care-free).
 |               |       |                    |  
 | delayTime     | int 	| 3 seconds          | Change the time between each slide 
 |               |       |                    | 
-| navImg        | array | Provided 2 images  | Add custom images for pagination arrows 
+| navImg        | arrayOfStrings | Provided 2 images  | Add custom images for pagination arrows 
 |               |       |                    | 
 | slideText     | bool  | true              | Toggle displaying On/Off of current slide # 
 |               |       |                    | 
