@@ -5,13 +5,14 @@ A click-based carousel (run it care-free).
 ---
 ![](./assets/carousel.svg)
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/eno-d/carefree-carousel/main?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/eno-d/carefree-carousel/Publish%20to%20npm?style=for-the-badge)
 
 ![npm](https://img.shields.io/npm/v/carefree-carousel?label=Latest&style=for-the-badge)
 
 ![GitHub](https://img.shields.io/github/license/eno-d/carefree-carousel?style=for-the-badge)
 
-![Requires.io (branch)](https://img.shields.io/requires/github/eno-d/carefree-carousel/main?style=for-the-badge)
+![David](https://img.shields.io/david/eno-d/carefree-carousel?style=for-the-badge)
+![David](https://img.shields.io/david/dev/eno-d/carefree-carousel?style=for-the-badge)
 
 ![npm bundle size](https://img.shields.io/bundlephobia/min/carefree-carousel?label=Size&style=for-the-badge)
 
