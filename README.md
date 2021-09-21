@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/88824507/134108105-acd1dc0d-30f6-4e6f-
 
 #### This is how the parameters were loaded for the video above
 ```
-<Carousel toggleDots={false} slideText={false} toggleNav={false} startIndex={0} />
+<Carousel toggleDots={false} slideText={false} toggleNav={false} startIndex={0} delayTime={4000} />
 
 ```
 #### The content array expects either a valid React element or a valid image string.
