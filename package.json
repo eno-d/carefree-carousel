@@ -27,6 +27,9 @@
     "eno-d",
     "customizable"
   ],
+  "publishConfig":{
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "Eno Dhamo",
   "license": "MIT",
   "bugs": {
