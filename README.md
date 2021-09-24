@@ -14,7 +14,7 @@ A click-based carousel (run it care-free).
 ![](https://img.shields.io/github/package-json/dependency-version/eno-d/carefree-carousel/react?style=for-the-badge&label=Need:%20React)
 ![](https://img.shields.io/github/package-json/dependency-version/eno-d/carefree-carousel/react-use-images?style=for-the-badge&label=Need:%20React-use-images)
 ![](https://img.shields.io/github/package-json/dependency-version/eno-d/carefree-carousel/prop-types?style=for-the-badge&label=Need:%20prop-types)
-![David](https://img.shields.io/david/dev/eno-d/carefree-carousel?style=for-the-badge)
+![David](https://img.shields.io/david/eno-d/carefree-carousel?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dw/carefree-carousel?label=Downloads&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/eno-d/carefree-carousel?style=social)
 
