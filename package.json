@@ -1,6 +1,6 @@
 {
   "name": "carefree-carousel",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A click-based carousel that you can run carefree.",
   "main": "./dist/bundle.cjs.js",
   "module": "./dist/bundle.es6.js",
