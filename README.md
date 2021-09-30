@@ -45,7 +45,7 @@ A click-based carousel (run it care-free).
 
 <br/>
 
-<video src="https://user-images.githubusercontent.com/88824507/134108105-acd1dc0d-30f6-4e6f-a83a-71b97109b001.mov"></video>
+https://user-images.githubusercontent.com/88824507/134108105-acd1dc0d-30f6-4e6f-a83a-71b97109b001.mov
 
 #### This is how the parameters were loaded for the video above
 ```
