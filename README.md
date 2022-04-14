@@ -5,7 +5,6 @@ A click-based carousel (run it care-free).
 ---
 ![](./assets/carousel.svg)
 
-![Maintenance](https://img.shields.io/maintenance/yes/2021?label=Active%3F&style=for-the-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/eno-d/carefree-carousel/Publish%20to%20npm?style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/carefree-carousel?label=Latest&style=for-the-badge)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/carefree-carousel?label=Size&style=for-the-badge)
@@ -14,7 +13,6 @@ A click-based carousel (run it care-free).
 ![](https://img.shields.io/github/package-json/dependency-version/eno-d/carefree-carousel/react?style=for-the-badge&label=Need:%20React)
 ![](https://img.shields.io/github/package-json/dependency-version/eno-d/carefree-carousel/react-use-images?style=for-the-badge&label=Need:%20React-use-images)
 ![](https://img.shields.io/github/package-json/dependency-version/eno-d/carefree-carousel/prop-types?style=for-the-badge&label=Need:%20prop-types)
-![David](https://img.shields.io/david/eno-d/carefree-carousel?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dw/carefree-carousel?label=Downloads&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/eno-d/carefree-carousel?style=social)
 
